@@ -118,7 +118,6 @@ class Trainer(object):
         iter_plot = create_vis_plot(vis, 'Iteration', 'Loss', vis_title, vis_legend)
         epoch_plot = create_vis_plot(vis, 'Epoch', 'Loss', vis_title + " epoch loss", vis_legend)
         log = []
-        #print(self.yolov3)
         print("Train datasets number is : {}".format(len(self.train_dataset)))
 
         iter = 0
